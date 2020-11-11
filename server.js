@@ -28,9 +28,9 @@ db.on("error", console.error.bind(console, "Connection error:")); //if any error
 app.use(require("./routes/htmlRoutes.js"));
 app.use(require("./routes/apiRoutes.js"));
 
- db.once("open", function () {
-  console.log("Connected to MongoDB");
+// db.once("open", function () {
+ // console.log("Connected to MongoDB");
  app.listen(PORT, function () {
    console.log(`App running on port http://localhost:${PORT}`);
  });
- })
+// })
