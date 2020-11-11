@@ -24,8 +24,9 @@ db.on("error", console.error.bind(console, "Connection error:")); //if any error
 
 
 // routes
-app.use(require("./routes/apiRoutes.js"));
+
 app.use(require("./routes/htmlRoutes.js"));
+app.use(require("./routes/apiRoutes.js"));
 
  db.once("open", function () {
   console.log("Connected to MongoDB");
