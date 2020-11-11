@@ -10,6 +10,10 @@ You can add workouts, continue your current workout, and see your progress.
 
 <img src="fitness_tracker_screenshot_03.png">
 
+You can use it here:
+
+https://whispering-woodland-16291.herokuapp.com/
+
 Historic Status
 
 091905NOV2020
